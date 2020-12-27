@@ -2,7 +2,7 @@
 
 Description:	Reorganise the ClassicPress admin menu.
 Version:		1.0.0
-Tags:			tweets,twitter,automatic 
+Tags:			admin,menu 
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
