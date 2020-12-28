@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: Update Admin Menu 
  * Description: Change the order of the menu items on the admin dashboard.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
