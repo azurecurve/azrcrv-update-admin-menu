@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: Update Admin Menu 
  * Description: Change the order of the menu items on the admin dashboard.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
@@ -337,8 +337,8 @@ function azrcrv_uam_update_admin_menu_order($menu_order){
 	
 	$options = azrcrv_uam_get_option('azrcrv-uam');
 	
-	if ($options['enabled'] == 1){
-		$menu = array();
+	$menu = array();
+	if ($options['enabled'] == 1 AND isset($options['updated-menu']) AND is_array($options['updated-menu'])){
 		foreach ($options['updated-menu'] as $key => $value){
 			$menu[] = $key;
 		}

@@ -1,12 +1,12 @@
 === Update Admin Menu ===
 
 Description:	Reorganise the ClassicPress admin menu.
-Version:		1.0.1
+Version:		1.0.2
 Tags:			admin,menu 
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
-Download link:	https://github.com/azurecurve/azrcrv-update-admin-menu/releases/download/v1.0.1/azrcrv-update-admin-menu.zip
+Download link:	https://github.com/azurecurve/azrcrv-update-admin-menu/releases/download/v1.0.2/azrcrv-update-admin-menu.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -49,6 +49,10 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 
 # Changelog
 
+### [Version 1.0.2](https://github.com/azurecurve/azrcrv-update-admin-menu/releases/tag/v1.0.2)
+ * Fix bug with error produced before options saved.
+ * Update azurecurve menu.
+
 ### [Version 1.0.1](https://github.com/azurecurve/azrcrv-update-admin-menu/releases/tag/v1.0.1)
  * Fix issue with updateclient namespace.
 
@@ -64,7 +68,7 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 Some of the top plugins available from **azurecurve** are:
 * [Add Twitter Cards](https://development.azurecurve.co.uk/classicpress-plugins/add-twitter-cards/)
 * [Breadcrumbs](https://development.azurecurve.co.uk/classicpress-plugins/breadcrumbs/)
-* [Series Index](https://development.azurecurve.co.uk/classicpress-plugins/series-index/)
+* [SMTP](https://development.azurecurve.co.uk/classicpress-plugins/smtp/)
 * [To Twitter](https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/)
 * [Theme Switcher](https://development.azurecurve.co.uk/classicpress-plugins/theme-switcher/)
 * [Toggle Show/Hide](https://development.azurecurve.co.uk/classicpress-plugins/toggle-showhide/)
