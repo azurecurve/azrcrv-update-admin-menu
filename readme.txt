@@ -1,12 +1,12 @@
 === Update Admin Menu ===
 
 Description:	Reorganise the ClassicPress admin menu.
-Version:		1.0.2
+Version:		1.1.0
 Tags:			admin,menu 
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
-Download link:	https://github.com/azurecurve/azrcrv-update-admin-menu/releases/download/v1.0.2/azrcrv-update-admin-menu.zip
+Download link:	https://github.com/azurecurve/azrcrv-update-admin-menu/releases/download/v1.1.0/azrcrv-update-admin-menu.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -49,6 +49,10 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 
 # Changelog
 
+### [Version 1.1.0](https://github.com/azurecurve/azrcrv-update-admin-menu/releases/tag/v1.1.0)
+ * Update azurecurve logo.
+ * Update translations to escape strings.
+ 
 ### [Version 1.0.2](https://github.com/azurecurve/azrcrv-update-admin-menu/releases/tag/v1.0.2)
  * Fix bug with error produced before options saved.
  * Update azurecurve menu.

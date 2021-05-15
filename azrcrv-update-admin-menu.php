@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: Update Admin Menu 
  * Description: Change the order of the menu items on the admin dashboard.
- * Version: 1.0.2
+ * Version: 1.1.0
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
@@ -182,8 +182,8 @@ function azrcrv_uam_create_admin_menu(){
 	$options = azrcrv_uam_get_option('azrcrv-uam');
 	
 	add_submenu_page("azrcrv-plugin-menu"
-						,__("Update Admin Menu Settings", "update-admin-menu")
-						,__("Update Admin Menu", "update-admin-menu")
+						,esc_html__("Update Admin Menu Settings", "update-admin-menu")
+						,esc_html__("Update Admin Menu", "update-admin-menu")
 						,'manage_options'
 						,'azrcrv-uam'
 						,'azrcrv_uam_display_options');
@@ -198,7 +198,7 @@ function azrcrv_uam_create_admin_menu(){
 function azrcrv_uam_display_options(){
 
 	if (!current_user_can('manage_options')) {
-		wp_die(__('You do not have sufficient permissions to access this page.', 'update-admin-menu'));
+		wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'update-admin-menu'));
 	}
 	
 	$options = azrcrv_uam_get_option('azrcrv-uam');
@@ -207,7 +207,10 @@ function azrcrv_uam_display_options(){
 	
 	echo '<div id="azrcrv-uam-general" class="wrap azrcrv-uam">
 		<fieldset>
-			<h1>'.esc_html(get_admin_page_title()).'</h1>';
+			<h1>
+				<a href="https://development.azurecurve.co.uk/classicpress-plugins/"><img src="'.plugins_url('/pluginmenu/images/logo.svg', __FILE__).'" style="padding-right: 6px; height: 20px; width: 20px;" alt="azurecurve" /></a>
+					'.get_admin_page_title().'
+			</h1>';
 			
 			if(isset($_GET['settings-updated'])){
 				echo '<div class="notice notice-success is-dismissible">
@@ -224,31 +227,31 @@ function azrcrv_uam_display_options(){
 					
 					<tr>
 						<th scope="row"><label for="widget-width">
-							'.__('Enable menu update', 'update-admin-menu').'
+							'.esc_html__('Enable menu update', 'update-admin-menu').'
 						</th>
 						<td>
 							<input name="enabled" type="checkbox" id="enabled" value="1" '.checked('1', $options['enabled'], false).' />
 							<label for="enabled"><span class="description">
-								'.__('Enable update of menu order.', 'update-admin-menu').'
+								'.esc_html__('Enable update of menu order.', 'update-admin-menu').'
 							</span></label
 						</td>
 					</tr>
 					
 					<tr>
 						<th scope="row"><label for="widget-width">
-							'.__('Menu Order', 'update-admin-menu').'
+							'.esc_html__('Menu Order', 'update-admin-menu').'
 						</th>
 						<td>
 							<span class="description">
-								'.__('Adjust the entries below update the menu positions.', 'update-admin-menu').'
+								'.esc_html__('Adjust the entries below update the menu positions.', 'update-admin-menu').'
 							</span>
 							<table class="azrcrv-uam">
 								<tr>
 									<th  class="azrcrv-uam">
-										'.__('Menu Item', 'update-admin-menu').'
+										'.esc_html__('Menu Item', 'update-admin-menu').'
 									</th>
 									<th  class="azrcrv-uam">
-										'.__('Order', 'update-admin-menu').'
+										'.esc_html__('Order', 'update-admin-menu').'
 									</th>
 								</tr>';
 								
@@ -279,7 +282,7 @@ function azrcrv_uam_display_options(){
 				
 				</table>
 				
-				<input type="submit" value="'.__('Save Changes', 'update-admin-menu').'" class="button-primary"/>
+				<input type="submit" value="'.esc_html__('Save Changes', 'update-admin-menu').'" class="button-primary"/>
 				
 			</form>
 		</fieldset>
