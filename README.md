@@ -1,9 +1,9 @@
 # [Update Admin Menu](https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/)
-![Plugin Banner](/assets/pluginimages/banner-1544x500.png)
+![Plugin Banner](/assets/images/banner-1544x500.png)
 
 # Description
 
-Allows the reorganisation of the ClassicPress admin menu allowing you to move more often used menu entries to the top of the menu.
+Allows the reorganisation of the ClassicPress admin menu allowing you to move more often used menu entries to the top of the menu and remove unwanted entries from view.
 
 This plugin is multisite compatible with each site having its own settings.
 
