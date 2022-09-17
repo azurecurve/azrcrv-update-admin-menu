@@ -1,12 +1,12 @@
 === Update Admin Menu ===
 
 Description:	Reorganise the ClassicPress admin menu by reordering or removing entries.
-Version:		2.0.0
+Version:		2.0.1
 Tags:			admin,menu 
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
-Download link:	https://github.com/azurecurve/azrcrv-update-admin-menu/releases/download/v2.0.0/azrcrv-update-admin-menu.zip
+Download link:	https://github.com/azurecurve/azrcrv-update-admin-menu/releases/download/v2.0.1/azrcrv-update-admin-menu.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -48,6 +48,9 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 == Changelog ==
 
 # Changelog
+
+### [Version 2.0.1](https://github.com/azurecurve/azrcrv-update-admin-menu/releases/tag/v2.0.1)
+ * Fix Update Manager View Details link (contributed by xxsimoxx).
 
 ### [Version 2.0.0](https://github.com/azurecurve/azrcrv-update-admin-menu/releases/tag/v2.0.0)
  * Refactor code to improve maintainability, to use a namespace and improve security.
