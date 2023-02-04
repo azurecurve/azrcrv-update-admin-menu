@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: Update Admin Menu
  * Description: Reorganise the ClassicPress admin menu by reordering or removing entries.
- * Version: 2.0.1
+ * Version: 2.0.2
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/update-admin-menu/
