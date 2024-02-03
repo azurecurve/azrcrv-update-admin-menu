@@ -50,8 +50,8 @@ $azurecurve_plugins = array(
 		'plugin_link' => 'azrcrv-check-plugin-status/azrcrv-check-plugin-status.php',
 		'admin_URL'   => 'admin.php?page=azrcrv-check-plugin-status',
 		'dev_URL'     => 'https://development.azurecurve.co.uk/classicpress-plugins/check-plugin-status/',
-		'retired'     => 0,
-		'updated'     => '2020-02-23',
+		'retired'     => 1,
+		'updated'     => '2024-02-02',
 	),
 	'Code'                       => array(
 		'plugin_link' => 'azrcrv-code/azrcrv-code.php',
@@ -59,13 +59,6 @@ $azurecurve_plugins = array(
 		'dev_URL'     => 'https://development.azurecurve.co.uk/classicpress-plugins/code/',
 		'retired'     => 0,
 		'updated'     => '2020-04-04',
-	),
-	'Check Plugin Status'        => array(
-		'plugin_link' => 'azrcrv-check-plugin-status/azrcrv-check-plugin-status.php',
-		'admin_URL'   => 'admin.php?page=azrcrv-cps',
-		'dev_URL'     => 'https://development.azurecurve.co.uk/classicpress-plugins/check-plugin-status/',
-		'retired'     => 0,
-		'updated'     => '2021-01-11',
 	),
 	'Comment Validator'          => array(
 		'plugin_link' => 'azrcrv-comment-validator/azrcrv-comment-validator.php',
